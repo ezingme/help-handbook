@@ -18,12 +18,26 @@
 
 
 # -- Project information -----------------------------------------------------
+
 import sphinx_rtd_theme
-html_theme = "sphinx_rtd_theme"
+
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+extensions = [
+    'sphinx_rtd_theme',
+]
+html_theme = "sphinx_rtd_theme"
+
 html_theme_options = {
-    'collapse_navigation': False,
+    'logo_only': False,
+    'display_version': True,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': False,
+    'style_nav_header_background': 'white',
+    'collapse_navigation': True,
     'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False
 }
 
 from recommonmark.parser import CommonMarkParser
@@ -87,7 +101,8 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+
+#html_theme = 'alabaster'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the

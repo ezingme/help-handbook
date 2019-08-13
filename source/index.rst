@@ -8,7 +8,7 @@ Welcome to Help's documentation!
 
 .. toctree::
    :maxdepth: 4
-   :caption: Contents:
+   :caption: 目录:
    
    中小企业云门户用户使用手册 V2.0
 
