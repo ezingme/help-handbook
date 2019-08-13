@@ -1,9 +1,6 @@
-.. Help documentation master file, created by
-   sphinx-quickstart on Thu Aug  8 15:00:08 2019.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
-Welcome to Help's documentation!
+
+中小企业云门户帮助手册
 ================================
 
 .. toctree::
@@ -22,9 +19,5 @@ Welcome to Help's documentation!
    
 
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+==================
